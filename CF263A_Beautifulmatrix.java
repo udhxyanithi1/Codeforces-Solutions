@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class CF263A_Beautifulmatrix {
 
     public static void main(String[] args) {
