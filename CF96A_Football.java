@@ -19,6 +19,7 @@ public class CF96A_Football {
                 return;
             }
         }
+        sc.close();
 
         System.out.println("NO");
     }
