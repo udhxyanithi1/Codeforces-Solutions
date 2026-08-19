@@ -17,5 +17,7 @@ public class CF236A_Boyorgirl {
         } else {
             System.out.println("IGNORE HIM!");
         }
+
+        sc.close();
     }
 }

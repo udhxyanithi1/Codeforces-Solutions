@@ -12,5 +12,7 @@ public class CF723A_Thenewyear_meetingfriends {
         int max = Math.max(x1, Math.max(x2, x3));
 
         System.out.println(max - min);
+
+        sc.close();
     }
 }

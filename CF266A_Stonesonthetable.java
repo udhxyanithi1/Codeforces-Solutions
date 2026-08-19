@@ -14,7 +14,7 @@ public class CF266A_Stonesonthetable {
                 count++;
             }
         }
-
         System.out.println(count);
+        sc.close();
     }
 }

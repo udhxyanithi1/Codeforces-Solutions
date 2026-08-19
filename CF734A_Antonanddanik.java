@@ -25,5 +25,6 @@ public class CF734A_Antonanddanik {
         } else {
             System.out.println("Friendship");
         }
+        sc.close();
     }
 }

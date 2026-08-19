@@ -16,11 +16,12 @@ public class CF96A_Football {
 
             if (count >= 7) {
                 System.out.println("YES");
+                sc.close();
                 return;
             }
         }
-        sc.close();
 
         System.out.println("NO");
+        sc.close();
     }
 }

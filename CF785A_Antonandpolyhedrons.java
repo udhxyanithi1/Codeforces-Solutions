@@ -24,5 +24,6 @@ public class CF785A_Antonandpolyhedrons {
         }
 
         System.out.println(total);
+        sc.close();
     }
 }

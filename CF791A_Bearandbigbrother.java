@@ -16,5 +16,6 @@ public class CF791A_Bearandbigbrother {
         }
 
         System.out.println(years);
+        sc.close();
     }
 }

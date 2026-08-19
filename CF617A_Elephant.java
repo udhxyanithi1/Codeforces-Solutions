@@ -9,5 +9,7 @@ public class CF617A_Elephant {
         int steps = (x + 4) / 5;
 
         System.out.println(steps);
+
+        sc.close();
     }
 }
