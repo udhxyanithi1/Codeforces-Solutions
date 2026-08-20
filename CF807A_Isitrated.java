@@ -16,7 +16,7 @@ public class CF807A_Isitrated {
       b[i] = sc.nextInt();
 
       if (a[i] != b[i]) {
-          changed = true;
+        changed = true;
       }
     }
 
@@ -24,14 +24,20 @@ public class CF807A_Isitrated {
       System.out.println("rated");
     } 
     else {
+      boolean wrongOrder = false;
+
       for (int i = 1; i < n; i++) {
         if (a[i] > a[i - 1]) {
-          System.out.println("maybe");
-          sc.close();
-          return;
+          wrongOrder = true;
+          break;
         }
       }
-      System.out.println("unrated");
+
+      if (wrongOrder) {
+        System.out.println("unrated");
+      } else {
+        System.out.println("maybe");
+      }
     }
     sc.close();
   }
