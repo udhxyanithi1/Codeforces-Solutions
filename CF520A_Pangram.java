@@ -4,7 +4,7 @@ public class CF520A_Pangram {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    int n = sc.nextInt();
+    sc.nextInt();
     String s = sc.next();
 
     boolean[] letters = new boolean[26];
